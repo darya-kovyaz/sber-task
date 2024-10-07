@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+        <title>sber-task</title>
+    </head>
+    <body>
+        <div class="absolute h-full w-full inset-0 flex justify-center">
+            <div class="flex flex-col gap-10 justify-center items-center">
+                <div id="slide" class="h-[200px] w-[200px] rounded-xl flex justify-center items-center font-semibold"></div>
+                <div class="flex gap-6">
+                    <button id="prev" class="font-bold rounded-3xl px-3 py-1.5 bg-gray-400 hover:bg-gray-300 animated-300">prev</button>
+                    <button id="play" class="font-bold rounded-3xl px-3 py-1.5 bg-green-500 hover:bg-green-400 animated-300">play</button>
+                    <button id="stop" class="font-bold rounded-3xl px-3 py-1.5 bg-red-500 animated-300">stop</button>
+                    <button id="next" class="font-bold rounded-3xl px-3 py-1.5 bg-gray-400 hover:bg-gray-300 animated-300">next</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

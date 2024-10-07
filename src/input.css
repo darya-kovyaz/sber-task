@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.animated-200 {
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.animated-300 {
+    transition: all;
+    transition-duration: 300ms;
+}
