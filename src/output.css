@@ -660,6 +660,11 @@ video {
   font-weight: 600;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .animated-200 {
   transition: all;
   transition-duration: 200ms;
